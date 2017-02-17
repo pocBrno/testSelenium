@@ -1,0 +1,18 @@
+Testware:
+
+LOGIN:
+If wrong format of email is entered,error shows up |OK [InvalidEmailFormatLogin]
+-If correct format of email is entered,no error is shown and green check is shown instead |OK [ValidEmailFormatLogin]
+-If non existing user tries to login,error shows up |OK [invalidLoginData]
+-If  existing user tries to login,user is able to login |OK [validLoginData]
+
+
+SIGN UP:
+-If wrong format of email is entered,error shows up |OK [invalidEmailFormatSignUp]
+-If correct format of email is entered,no error is shown and green check is shown instead |OK [ValidEmailFormatSignUp]
+-User is able to create a new account |OK [signUp]
+
+
+
+
+
